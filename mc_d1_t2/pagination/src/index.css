@@ -1,0 +1,48 @@
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.user-container {
+  background: #aaadaf;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.user-card {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  background: #ffffff;
+  text-align: center;
+}
+
+.user-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.pagination-buttons button {
+  min-width: 40px;
+}
+
+.btn-dark {
+  background-color: #343a40;
+  border-color: #343a40;
+}
+
+.btn-dark:hover {
+  background-color: #23272b;
+}
+
+.btn-outline-primary:hover {
+  color: white;
+}
