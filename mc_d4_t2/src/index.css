@@ -1,0 +1,44 @@
+.post {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .reaction-buttons {
+    margin-top: 10px;
+  }
+  
+  .like-btn, .dislike-btn {
+    border: none;
+    background-color: #f0f0f0;
+    color: #000000;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .like-btn.active {
+    background-color: #4caf50;
+    color: #fff;
+  }
+  
+  .dislike-btn.active {
+    background-color: #f44336;
+    color: #fff;
+  }
+  
+  .like-btn:hover, .dislike-btn:hover {
+    transform: scale(1.05);
+  }
+  
+  .reaction-message {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
